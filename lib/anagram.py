@@ -7,3 +7,4 @@ class Anagram:
 
     def match(self, word_list):
         return [word for word in word_list if "".join(sorted(word.lower())) == self.sorted_word]
+    
